@@ -34,6 +34,11 @@ To update your settings in any parts of your project
 	
 	[LRAppDefaults updateAppSetting:[NSNumber numberWithInt:1] withKey:@"is_updated"]);
 
+Coming Soon
+-------
+Cloud AppSettings for saving application settings in the cloud and so users of your application can delete or 
+install the same application and restore their application settings auto-magically.
+
 License
 -------
     The MIT License
