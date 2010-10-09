@@ -2,8 +2,8 @@
 //  LRAppDefaultsAppDelegate.h
 //  LRAppDefaults
 //
-//  Created by Alfred Toh on 10/9/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Created by Khang Toh on 10/9/10.
+//  Copyright 2010 LeftRight Studios, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
