@@ -3,7 +3,7 @@ LRApplication Defaults
 
 The code in LRAppDefaults is common utility code extracted from [LeftRight Studios](http://www.leftright.co/) iPhone projects. 
 
-LRAppDefaults is an utility class for saving your application defaults to NSUserDefaults standardU
+LRAppDefaults is an utility class for saving your application defaults to NSUserDefaults.
 To use LRAppDefaults. To use simple copy the LRAppDefault.h and .m files into your project and add them to your XCode project and that's it. Then import the header (.h) in your code.
 
 
