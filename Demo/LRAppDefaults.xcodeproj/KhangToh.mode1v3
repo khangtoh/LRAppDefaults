@@ -323,13 +323,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>91EA80651260BF150064BAC6</string>
+										<string>91EA80811260C7930064BAC6</string>
 										<key>history</key>
 										<array>
 											<string>91EA80611260BF150064BAC6</string>
 											<string>91EA80621260BF150064BAC6</string>
 											<string>91EA80631260BF150064BAC6</string>
-											<string>91EA80641260BF150064BAC6</string>
+											<string>91EA80651260BF150064BAC6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -341,14 +341,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1164, 509}}</string>
+								<string>{{0, 0}, {1164, 503}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1532 359 1372 736 1440 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>509pt</string>
+							<string>503pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -361,14 +361,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 514}, {1164, 181}}</string>
+								<string>{{0, 508}, {1164, 187}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1532 359 1372 736 1440 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>187pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -387,9 +387,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>91EA7FF31260B21D0064BAC6</string>
+				<string>91EA80821260C7930064BAC6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>91EA7FF41260B21D0064BAC6</string>
+				<string>91EA80831260C7930064BAC6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -527,11 +527,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>91EA7FF61260B21D0064BAC6</string>
-		<string>/Users/KhangToh/Projects/OpenSource/github/LRApplicationDefaults/LRAppDefaults/LRAppDefaults.xcodeproj</string>
+		<string>/Users/KhangToh/Projects/OpenSource/github/LRAppDefaults/LRAppDefaults/Demo/LRAppDefaults.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1532 359 1372 736 1440 0 1920 1200 </string>
@@ -572,8 +569,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -613,7 +608,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>91EA7FF61260B21D0064BAC6</string>
-				<string>91EA7FF71260B21D0064BAC6</string>
+				<string>91EA80841260C7930064BAC6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
