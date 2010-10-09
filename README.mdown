@@ -1,0 +1,61 @@
+LRApplication Defaults
+===================================
+
+The code in LRAppDefaults is common utility code extracted from [LeftRight Studios](http://www.leftright.co/) iPhone projects. 
+
+LRAppDefaults is an utility class for saving your application defaults to NSUserDefaults standardU
+To use LRAppDefaults. To use simple copy the LRAppDefault.h and .m files into your project and add them to your XCode project and that's it. Then import the header (.h) in your code.
+
+
+Using LRAppDefaults
+-----------------
+
+LRAppDefaults was designed to easily add any NSObjects that conforms to NSCoding Protocol. By calling any LRAppDefaults methods in your application delegate, a NSDate is automatically added for the install date of the application. 
+
+To get the install date
+	
+	NSDate *installDate = [LRAppDefaults installDate]
+    
+To add your own settings to NSDefaults 
+
+	if ([LRAppDefaults isNewInstall]) {
+		//Any Foundation classes that serializes can be added and read later
+		[LRAppDefaults addAppSetting:[NSNumber numberWithInt:0] withKey:@"is_updated"];
+		NSArray *someArray = [NSArray arrayWithObjects:@"smackBOTS",@"rocks",nil];
+		[LRAppDefaults addAppSetting:someArray withKey:@"what_app"];
+	}
+
+To get your settings in any parts of your project
+	
+	NSLog(@"is_updated %@",[LRAppDefaults getAppSettingWithKey:@"is_updated"]);
+	NSLog(@"what_app %@",[LRAppDefaults getAppSettingWithKey:@"what_app"]);
+		
+To update your settings in any parts of your project
+	
+	[LRAppDefaults updateAppSetting:[NSNumber numberWithInt:1] withKey:@"is_updated"]);
+
+License
+-------
+    The MIT License
+    
+    Copyright (c) 2010 LeftRight Studios
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+     
+    
